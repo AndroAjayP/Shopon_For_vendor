@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22E4DDEC"
+    tools:context=".categories.activity.Choose_product_categories">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="193dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/back7"
+        android:orientation="horizontal"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread_inside">
+
+        <ImageView
+            android:id="@+id/home"
+            style="@style/ClickableImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:layout_gravity="start"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="202dp"
+        android:layout_height="466dp"
+        android:layout_margin="4dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="#000"
+            android:gravity="left"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/josefin_bold"
+                android:textStyle="bold"
+                android:text="Choose Product Categories"/>
+
+
+            <CheckBox
+                android:id="@+id/Clothing"
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/gotham"
+                android:text="Clothing" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="left"
+            android:orientation="vertical">
+
+
+            <CheckBox
+                android:id="@+id/Cell_Phones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/gotham"
+                android:text="Cell Phones" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/Electronics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/gotham"
+                android:text="Electronics" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/Shoes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/gotham"
+                android:gravity="center"
+                android:text="Shoes" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/Books"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/gotham"
+                android:gravity="center"
+                android:text="Books" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:gravity="left"
+            android:orientation="vertical">
+
+
+            <CheckBox
+                android:id="@+id/Handmade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/gotham"
+                android:text="Handmade" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="202dp"
+        android:layout_height="468dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout4"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/Health"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:fontFamily="@font/gotham"
+                android:text="Health" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/Sports"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:fontFamily="@font/gotham"
+                android:text="Sports" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/Toys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:fontFamily="@font/gotham"
+                android:text="Toys" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/Luggage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:fontFamily="@font/gotham"
+                android:text="Luggage" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="right"
+
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/Music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="left"
+                android:fontFamily="@font/gotham"
+                android:gravity="center"
+                android:text="Music" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/Musical_Instruments"
+                android:layout_width="190dp"
+                android:layout_height="42dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/gotham"
+                android:layout_gravity="left"
+                android:text="Musical Instruments" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/submit_ok"
+        android:layout_width="426dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:background="#3346B6"
+        android:fontFamily="@font/gotham"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7" />
+</android.support.constraint.ConstraintLayout>

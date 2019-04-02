@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#EEEDED"
+    android:layout_height="match_parent"
+    tools:context=".offersAndStock_mgt.offers">
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="33dp"
+        android:background="#FFFDFD"
+        android:elevation="2dp"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/Categories"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:id="@+id/sub_categories"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/stock_in"
+                android:layout_width="82dp"
+                android:layout_height="79dp"
+                android:padding="10dp"
+                android:src="@drawable/positive" />
+
+            <ImageView
+                android:id="@+id/stock_out"
+                android:layout_width="82dp"
+                android:padding="10dp"
+                android:layout_height="79dp"
+                 android:layout_marginStart="160dp"
+                android:src="@drawable/neagative" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/stock_text"
+                android:layout_width="82dp"
+                android:layout_height="79dp"
+                android:padding="5dp"
+                android:layout_marginStart="16dp"
+                android:text="Stock In" />
+
+            <TextView
+                android:id="@+id/stockOut_text"
+                android:layout_width="82dp"
+                android:layout_height="79dp"
+                android:padding="5dp"
+                android:layout_marginStart="160dp"
+                android:text="Stock out" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:background="#4E63E9"
+            android:textColor="#F8F7F7"
+            android:fontFamily="@font/gotham"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="138dp"
+        android:fontFamily="@font/gotham"
+        android:text="Choose Stock In/out"
+        android:textSize="28dp" />
+
+</RelativeLayout>

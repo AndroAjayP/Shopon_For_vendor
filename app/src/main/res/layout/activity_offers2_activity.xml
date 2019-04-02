@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#EEEDED"
+    android:layout_height="match_parent"
+    tools:context=".offersAndStock_mgt.offers">
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="33dp"
+        android:background="#FFFDFD"
+        android:elevation="5dp"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/sub_categories"
+            android:padding="10dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/offers"
+            android:padding="20dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter discount in percentage"/>
+
+        <ImageView
+            android:id="@+id/poster"
+            android:layout_width="159dp"
+            android:layout_height="81dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/poster" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:fontFamily="@font/gotham"
+            android:text="Add Poster"/>
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:background="#4E63E9"
+            android:textColor="#F8F7F7"
+            android:fontFamily="@font/gotham"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="138dp"
+        android:fontFamily="@font/gotham"
+        android:text="Add Your Offers Here"
+        android:textSize="28dp" />
+
+</RelativeLayout>

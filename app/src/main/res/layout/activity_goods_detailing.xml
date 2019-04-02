@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#12C98319"
+
+    tools:context=".StoringFinalDetail.Goods_detailing">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="65dp"
+        android:orientation="vertical"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/click">
+
+        <FrameLayout
+            android:id="@+id/brand_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </FrameLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/brand"
+                android:layout_width="match_parent"
+                android:paddingStart="15dp"
+                android:layout_height="61dp"
+                android:ems="10"
+                android:background="@drawable/button_background_color"
+                android:hint="Name"
+                android:inputType="textPersonName" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:paddingStart="15dp"
+                android:layout_height="61dp"
+                android:ems="10"
+                android:background="@drawable/button_background_color"
+                android:hint="price"
+                android:inputType="numberDecimal" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/size"
+                android:layout_width="match_parent"
+                android:paddingStart="15dp"
+                android:layout_height="61dp"
+                android:ems="10"
+                android:background="@drawable/button_background_color"
+                android:hint="size"
+                android:inputType="textPersonName" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/color"
+                android:layout_width="match_parent"
+                android:paddingStart="15dp"
+                android:layout_height="61dp"
+                android:ems="10"
+                android:background="@drawable/button_background_color"
+                android:hint="color"
+                android:inputType="textPersonName" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/desc"
+                android:layout_width="match_parent"
+                android:paddingStart="15dp"
+                android:layout_height="61dp"
+                android:ems="10"
+                android:background="@drawable/button_background_color"
+                android:hint="Write Description Here"
+                android:inputType="textMultiLine" />
+        </android.support.design.widget.TextInputLayout>
+
+        <FrameLayout
+            android:id="@+id/model_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/Model_no"
+                    android:layout_width="match_parent"
+                    android:paddingStart="15dp"
+                    android:layout_height="61dp"
+                    android:ems="10"
+                    android:background="@drawable/button_background_color"
+                    android:hint="Model no"
+                    android:inputType="textPersonName" />
+
+            </android.support.design.widget.TextInputLayout>
+        </FrameLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/setPhoto"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="34dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/homepage" />
+
+    <ImageView
+        android:id="@+id/back_btn"
+        android:layout_width="34dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/click"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+    <ImageView
+        android:id="@+id/click"
+        android:layout_width="127dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginBottom="77dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintStart_toEndOf="@+id/back_btn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/galleryshopon" />
+
+    <TextView
+        android:id="@+id/textCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="@font/calibri"
+        android:text="Take Picture"
+        android:textColor="#EFEFF5"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="@+id/click"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/click"
+        app:layout_constraintVertical_bias="0.772" />
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="700dp"
+        android:background="#3853D3"
+        android:fontFamily="@font/josefin_bold"
+        android:text="Submit"
+        android:textColor="#FDFDFC"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

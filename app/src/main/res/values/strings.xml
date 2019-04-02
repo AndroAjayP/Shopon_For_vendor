@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">ShoponV</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Shopon</string>
+    <string name="slide_1_desc">The easiest way of selling products and Advertising Your Shop</string>
+
+    <string name="slide_2_title">Free of Cost</string>
+    <string name="slide_2_desc">no charges will be taken for sell and advertisement!</string>
+
+    <string name="slide_3_title">Easy to handle</string>
+    <string name="slide_3_desc">We can easily listing your product!</string>
+
+    <string name="slide_4_title">let\'s Start</string>
+    <string name="slide_4_desc">move to your real Job..!</string>
+
+
+    <string name="hint_email">Enter email address</string>
+    <string name="hint_password">Enter password</string>
+    <string name="hint_password_confirm">Confirm password</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="text_signin">Login</string>
+
+
+    <string name="btn_smooth_scroll">Smooth scroll</string>
+    <string name="btn_transition_time">Transition time</string>
+
+    <string name="dialog_seekbar_transition_time">Item transition time in millis</string>
+
+    <string name="msg_unsupported_op">Unsupported operation</string>
+
+    <string name="pref_key_transition_time" translatable="false">pref_key_transition_time</string>
+    <string name="title_activity_product_view">productView</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+</resources>

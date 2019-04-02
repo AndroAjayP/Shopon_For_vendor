@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FDFCFC"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".PayTm.payTm">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="579dp"
+        app:srcCompat="@drawable/payt_banner" />
+
+    <EditText
+        android:id="@+id/paytm_no"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="186dp"
+        android:drawableEnd="@drawable/phonebook"
+        android:ems="10"
+        android:hint="91+   Add PayTm Number"
+        android:inputType="phone" />
+
+    <ImageView
+        android:id="@+id/qr"
+        android:layout_width="194dp"
+        android:layout_height="205dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="255dp"
+        android:layout_marginEnd="122dp"
+        app:srcCompat="@drawable/qrcode" />
+
+    <Button
+        android:id="@+id/qr_code"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="213dp"
+        android:background="#5DAFF3"
+        android:fontFamily="@font/gotham"
+        android:gravity="center"
+        android:text="Add QR CODE"
+        android:textColor="#FFFEFE" />
+
+    <Button
+        android:id="@+id/paytm_final"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#3160D8"
+        android:fontFamily="@font/gotham"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+</RelativeLayout>
